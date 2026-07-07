@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Covid-19 Terking Map</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+ <body>
+  <!-- top image and video slider -->
+<div class="main"> 
+	<div class="container">
+	<h1>Covid-19 Videos</h1>
+		<div class="slider-outer">
+			<p class="prev">&#60;</p>
+			<div class="slider-inner">
+				<!-- put your images here -->
+				<img src="images/image1.jpg" class="active" alt="no image show">
+				<img src="images/image3.jpg" alt="no image show">
+				<img src="images/image4.jpg" alt="no image show">
+				<!-- put your video iframe here -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/SPTsZVFd63o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/o00-YTobE3Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/uH-rE55k7-Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/FcLDWpVW0so" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<p class="next">&#62;</p>
+		</div>
+	</div>
+	<h1>Covid-19 Live Tracking System </h1>
+	<p><strong>Click Marker And Show More Info About Covid-19</strong></p>
+    <!-- mapbox  -->
+	<div class="map-body">
+		<div id='map'></div>
+	</div>
+	
+	<!-- bottom info -->
+	<div class="covid-info">
+		<div class="info-table">
+			<h1>Worldwide Covid-19 Record</h1>
+			<div class="info-bar"></div>
+		</div>
+	</div>
+</div>
+
+<!-- mapbox CDN -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+<!-- jqury file attach -->
+<script src="js/main.js"></script>
+</body>
+</html>
