@@ -1,10 +1,5 @@
 # USA COVID-19 Live Map
 
-> **⚠️ Disclaimer**
->
-> This repository is shared for **educational, research, and portfolio purposes only**. It demonstrates web development, API integration, interactive mapping, and data visualization techniques. The project is intended as a technical showcase and should not be considered a source of official public health information.
-
----
 
 ## 📖 Overview
 
@@ -122,6 +117,11 @@ User Interaction
 - Export reports
 - Mobile application
 - Multiple country support
+
+---
+> **⚠️ Disclaimer**
+>
+> This repository is shared for **educational, research, and portfolio purposes only**. It demonstrates web development, API integration, interactive mapping, and data visualization techniques. The project is intended as a technical showcase and should not be considered a source of official public health information.
 
 ---
 
